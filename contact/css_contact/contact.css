@@ -1,0 +1,126 @@
+/* CSS Document */
+* { margin: 0;
+    padding: 0;
+  }
+
+body {
+      font-family: Helvetica;
+      background-color:  #B2FFFF;
+      font-size: 12pt;
+      margin: 0px auto;
+      position: center;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+     }
+
+   
+/* external font */
+@font-face {
+             font-family: 'bob';
+             src: url(BoB.ttf),
+             format("ttf");
+             src: url(BoB.otf)
+             format("opentype"),
+
+            } 
+
+/* Navigation Bar */
+#navigation {
+    height: 67px; 
+    float: center;
+    position: fixed;
+    width: 100%;
+      z-index: 100;
+    background-color: #FF3366 ;
+}
+
+/* end of nagivation bar */
+.image-frame{
+  width: 60px;
+  padding: 4px;
+  height: 60px;
+
+  margin-right:-10px;
+}
+/* My World of Design */
+
+
+
+.style {
+          background: #FF3366;
+          position: fixed;
+          left: 0; right: 0;
+          height: 200px;
+       }
+
+
+hr { 
+      border-style: solid;
+      border-width: 5px;
+      color: yellow;
+   }
+
+
+
+.contact { 
+  width: 300px;
+    color: #FF3366;
+    font-family: helvetica;
+    font-size: 12pt ;
+    padding-top: 200px;
+    padding-left: 450px;
+
+}
+
+   
+p {
+    color: #FF3366;
+    font-family: helvetica;
+    font-size: 12pt ;
+   }
+   
+ /* unvisited link */
+a:link {
+    color: #FF0000;
+    font-size: 20;
+    font-family: arial;
+    text-decoration: none;
+    position: relative;
+    border-width: 3px;
+
+      
+}
+
+/* visited link */
+a:visited {
+    color: red;
+     font-size: 20;
+    font-family: arial;
+    text-decoration: none;
+    position: relative;
+   
+
+}
+
+/* mouse over link */
+a:hover {
+    color: #00FF00;
+     font-size: 20;
+    font-family: arial;
+    text-decoration: none;
+    position: relative;
+    
+}
+
+/* selected link */
+a:active {
+    color: #0000FF;
+     font-size: 20;
+    font-family: arial;
+    text-decoration: none;
+    position: relative;
+   
+
+} 
+
